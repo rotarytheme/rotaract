@@ -2346,3 +2346,7 @@ when it has other properties nested beneath it.
 2013-05-17 14:48:54 unchanged images/backgrounds-s8f9fdc06fe.png
 2013-05-17 14:48:55 identical stylesheets/style.css 
 >>>>>>> 89920db37a84c01886843c32f3739023d41850bd
+2013-05-17 19:09:20 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-17 19:09:20 overwrite stylesheets/style.css 
+2013-05-17 19:10:13 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-17 19:10:13 identical stylesheets/style.css 

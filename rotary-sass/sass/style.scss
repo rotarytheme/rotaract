@@ -279,25 +279,30 @@ hr {
 	h1 {
 		border-bottom: 1px solid $subheader-font-color;
 		font-size:30px;
+		margin-bottom: 20px;
+		padding-bottom:10px;
 	}
 	h2 {
 	    color: $header-font-color;
 		font-size: 20px;
+		margin-bottom: 10px;
 		padding-top:5px;
     	text-transform: uppercase;
 	}
 	h3 {
 		color:$subheader-font-color;
 		font-size:18px;
-		text-transform: uppercase;
+		margin-bottom: 10px;	
+		
 
 	}
 	h4 {
 		color:$subheader-font-color;
 		font-family:$body-font-family;
 		font-size:15px;
-		text-transform: uppercase;
-		
+		font-weight:bold;
+		margin-bottom: 10px;	
+		text-transform: uppercase;	
 	}
 	h5 {
 		color:$subheader-font-color;
