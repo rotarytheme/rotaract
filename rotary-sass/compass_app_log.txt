@@ -2350,3 +2350,15 @@ when it has other properties nested beneath it.
 2013-05-17 19:09:20 overwrite stylesheets/style.css 
 2013-05-17 19:10:13 unchanged images/backgrounds-s8f9fdc06fe.png
 2013-05-17 19:10:13 identical stylesheets/style.css 
+2013-05-18 16:00:29 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-18 16:00:30 overwrite stylesheets/style.css 
+2013-05-18 16:02:21 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-18 16:02:22 overwrite stylesheets/style.css 
+2013-05-18 16:06:22     error sass/style.scss (Line 1114: Invalid CSS after "...t "membership";": expected "}", was "")
+2013-05-18 16:06:22 overwrite stylesheets/style.css 
+2013-05-18 16:07:17 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-18 16:07:18 overwrite stylesheets/style.css 
+2013-05-18 16:10:08 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-18 16:10:08 overwrite stylesheets/style.css 
+2013-05-18 16:12:45 unchanged images/backgrounds-s8f9fdc06fe.png
+2013-05-18 16:12:45 overwrite stylesheets/style.css 

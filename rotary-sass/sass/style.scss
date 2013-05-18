@@ -73,8 +73,8 @@ Tags: rotary, html5
 	line-height:20px;
 }
 .no-cssgradients .button {
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821'); /* IE6 & IE7 */
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821')"; /* IE8 */  
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f1eee7', endColorstr='#ddd6c4'); /* IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f1eee7', endColorstr='#ddd6c4')"; /* IE8 */  
 }
 .aligncenter	{ display: block; margin: 0 auto; }
 .alignleft		{ float: left; }
@@ -299,7 +299,7 @@ hr {
 	h4 {
 		color:$subheader-font-color;
 		font-family:$body-font-family;
-		font-size:15px;
+		font-size:14px;
 		font-weight:bold;
 		margin-bottom: 10px;	
 		text-transform: uppercase;	
@@ -493,7 +493,8 @@ hr {
 	
 }
 .no-cssgradients .home aside > ul > li h3 {
-	background:url(../images/sidebar-header-bg.png) repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821'); /* IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821')"; /* IE8 */  /*main menu*/
 }
 #signin {
 	.loggedin {
@@ -604,9 +605,9 @@ hr {
 	}
 }
 .no-cssgradients #branding section a{
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821'); /* IE6 & IE7 */
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821')"; /* IE8 */  }
-/*main menu*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f1eee7', endColorstr='#ddd6c4'); /* IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#f1eee7', endColorstr='#ddd6c4')"; /* IE8 */  /*main menu*/
+}
 #mainmenu {
 	@include background-image(linear-gradient(#b20837, #7c0821));
 	@include border-radius(0 0 12px 12px);
@@ -724,7 +725,9 @@ hr {
 	
 	}
 .no-cssgradients.no-borderradius #mainmenu {
-	background:url(../images/menu-bg.jpg) no-repeat;
+	/*background:url(../images/menu-bg.jpg) no-repeat;*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821'); /* IE6 & IE7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b20837', endColorstr='#7c0821')"; /* IE8 */  /*main menu*/
 	li a {
 		margin-top:11px;
 	}
