@@ -136,6 +136,7 @@ body.gray {
 h1, h2, h3, h4, h5, h6 {
 	font-family:$header-font;
 	line-height:1.1em;
+	margin-top:10px;
 }
 a {
 	color:$link-color;
@@ -297,7 +298,7 @@ hr {
 
 	}
 	h4 {
-		color:$subheader-font-color;
+		color:$header-font-color;
 		font-family:$body-font-family;
 		font-size:14px;
 		font-weight:bold;
@@ -308,6 +309,7 @@ hr {
 		color:$subheader-font-color;
 		font-family:$body-font-family;
 		font-size:12px;
+		margin-bottom: 5px;	
 		text-transform: uppercase;
 		
 	}
@@ -461,6 +463,9 @@ hr {
 		top:-1px;
 		width:104%;
 	}
+	> li.widget_search {
+		height:65px;
+	}
 	h3 {
 		@include background-image(linear-gradient(#b20837, #7c0821));
 		color:#fff;
@@ -487,6 +492,15 @@ hr {
 		margin: 5px 15px 5px 15px;
 		
 	}
+	.epl_advanced_cal_widget_class  div {
+		margin:0;
+	}
+    .epl_advanced_cal_widget_class {
+	    overflow: hidden;
+	    .epl-adv-calendar {
+		    width:200px !important;
+	    }
+    }
 	.textwidget p, .textwidget li {
 		margin:0;
 	}
