@@ -279,18 +279,21 @@ hr {
 	}
 	h1 {
 		border-bottom: 1px solid $subheader-font-color;
+		clear:both;
 		font-size:30px;
 		margin-bottom: 20px;
 		padding-bottom:10px;
 	}
 	h2 {
 	    color: $header-font-color;
+	    clear:both;
 		font-size: 20px;
 		margin-bottom: 10px;
 		padding-top:5px;
     	text-transform: uppercase;
 	}
 	h3 {
+		clear:both;
 		color:$subheader-font-color;
 		font-size:18px;
 		margin-bottom: 10px;	
@@ -298,6 +301,7 @@ hr {
 
 	}
 	h4 {
+		clear:both;
 		color:$header-font-color;
 		font-family:$body-font-family;
 		font-size:14px;
@@ -306,6 +310,7 @@ hr {
 		text-transform: uppercase;	
 	}
 	h5 {
+		clear:both;
 		color:$subheader-font-color;
 		font-family:$body-font-family;
 		font-size:12px;
@@ -593,7 +598,7 @@ hr {
 		background:url(../images/logo-rotaryc.jpg) no-repeat;
 		float:left;
 		font-family:$header-font;
-		font-size:30px;
+		font-size:42px;
 		height:100px;
 		line-height:.9em;
 		margin-bottom:15px;
@@ -783,6 +788,7 @@ hr {
 		padding:0 20px 20px 0;
 		h2 {
 			color:#FFF;
+			margin-top:0;
 		}
 		.topictitle {
 			border-bottom: 1px solid $body-text-color;
@@ -906,6 +912,7 @@ hr {
 		padding:0 20px 20px 0;
 		h2 {
 			color:#FFF;
+			margin-top:0;
 		}
 	}
 	.sectioncontent {

@@ -459,23 +459,27 @@ hr {
 }
 #content h1 {
   border-bottom: 1px solid #606060;
+  clear: both;
   font-size: 30px;
   margin-bottom: 20px;
   padding-bottom: 10px;
 }
 #content h2 {
   color: #b20837;
+  clear: both;
   font-size: 20px;
   margin-bottom: 10px;
   padding-top: 5px;
   text-transform: uppercase;
 }
 #content h3 {
+  clear: both;
   color: #606060;
   font-size: 18px;
   margin-bottom: 10px;
 }
 #content h4 {
+  clear: both;
   color: #b20837;
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   font-size: 14px;
@@ -484,6 +488,7 @@ hr {
   text-transform: uppercase;
 }
 #content h5 {
+  clear: both;
   color: #606060;
   font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
   font-size: 12px;
@@ -837,7 +842,7 @@ hr {
   background: url(../images/logo-rotaryc.jpg) no-repeat;
   float: left;
   font-family: SommetHeavy, sans-serif;
-  font-size: 30px;
+  font-size: 42px;
   height: 100px;
   line-height: .9em;
   margin-bottom: 15px;
@@ -1048,6 +1053,7 @@ hr {
 }
 .single-rotary-reveille .sectionheader h2, .single .sectionheader h2 {
   color: #FFF;
+  margin-top: 0;
 }
 .single-rotary-reveille .sectionheader .topictitle, .single .sectionheader .topictitle {
   border-bottom: 1px solid #606060;
@@ -1172,6 +1178,7 @@ hr {
 }
 .archive #content article .sectionheader h2, .blog #content article .sectionheader h2 {
   color: #FFF;
+  margin-top: 0;
 }
 .archive #content article .sectioncontent, .blog #content article .sectioncontent {
   overflow: hidden;
@@ -1627,6 +1634,9 @@ aside .textwidget ul li {
 aside .textwidget ol li {
   list-style: inside decimal;
 }
+aside .widget_sp_image img {
+  margin-top: 5px;
+}
 
 .single #secondary {
   margin-top: 50px;
@@ -1676,6 +1686,7 @@ aside .textwidget ol li {
   color: #b20837;
   font-size: 19px;
   margin-bottom: 2px;
+  margin-top: 0;
   padding-top: 15px;
   text-indent: 10px;
   text-transform: uppercase;
