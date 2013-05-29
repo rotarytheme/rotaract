@@ -695,6 +695,9 @@ hr {
   line-height: 19px;
   margin: 5px 15px 5px 15px;
 }
+.home aside > ul .ue_template1 {
+  margin: 0 !important;
+}
 .home aside > ul .epl_advanced_cal_widget_class div {
   margin: 0;
 }
@@ -702,6 +705,7 @@ hr {
   overflow: hidden;
 }
 .home aside > ul .epl_advanced_cal_widget_class .epl-adv-calendar {
+  margin-left: 15px;
   width: 200px !important;
 }
 .home aside > ul .textwidget p, .home aside > ul .textwidget li {
@@ -839,14 +843,15 @@ hr {
   width: 90px;
 }
 #branding h1 {
-  background: url(../images/logo-rotaryc.jpg) no-repeat;
+  background: url(../images/logo-rotaryc.jpg) no-repeat 0 15px;
   float: left;
   font-family: SommetHeavy, sans-serif;
   font-size: 42px;
   height: 100px;
   line-height: .9em;
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 0px;
+  padding-top: 15px;
   text-indent: 95px;
   text-shadow: 1px 1px 1px #808080;
   text-transform: uppercase;
@@ -889,6 +894,7 @@ hr {
   -o-border-radius: 0 0 12px 12px;
   border-radius: 0 0 12px 12px;
   clear: left;
+  font-family: Arial, Helvetica, sans-serif;
   height: 55px;
   /*Search*/
 }

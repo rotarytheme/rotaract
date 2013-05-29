@@ -497,12 +497,16 @@ hr {
 		margin: 5px 15px 5px 15px;
 		
 	}
+	.ue_template1 {
+		margin:0 !important;
+	}
 	.epl_advanced_cal_widget_class  div {
 		margin:0;
 	}
     .epl_advanced_cal_widget_class {
 	    overflow: hidden;
 	    .epl-adv-calendar {
+	    margin-left:15px;
 		    width:200px !important;
 	    }
     }
@@ -595,14 +599,15 @@ hr {
 		
 	}
 	h1 {
-		background:url(../images/logo-rotaryc.jpg) no-repeat;
+		background:url(../images/logo-rotaryc.jpg) no-repeat 0 15px;
 		float:left;
 		font-family:$header-font;
 		font-size:42px;
 		height:100px;
 		line-height:.9em;
 		margin-bottom:15px;
-		margin-top:15px;
+		margin-top:0px;
+		padding-top:15px;
 		text-indent:95px;
 		text-shadow: 1px 1px 1px #808080;
 		text-transform:uppercase;
@@ -631,6 +636,7 @@ hr {
 	@include background-image(linear-gradient(#b20837, #7c0821));
 	@include border-radius(0 0 12px 12px);
 	clear:left;
+	font-family: $menu-font-family;
 	height:55px;
 	/*Search*/
 	.searchform {
